@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+#app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+
+.box{
+    width: calc((100% / 4) - 20px);
+    height: 150px;
+}
+
+.green{
+    background-color: #7CEF94;
+}
+
+.orange{
+    background-color: #FF5A10;
+}
+
+.purple{
+    background-color: #F200FF;
+}
+
+.blu{
+    background-color: #017499;
+}
+
+.pink{
+    background-color: #D96BAA;
+}
+
+.yellow{
+    background-color: #FDEF80;
+}
+
+.flamingo{
+    background-color: #F24646;
+}
+
+.screamin{
+    background-color: #6BF883;
+}
